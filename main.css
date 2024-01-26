@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+}
+
+
+.main-slider {
+    width: 80%;
+    height: 200px;
+    background-color: gray;
+    margin: auto;
+    position: relative;
+    box-shadow: 2px 2px 4px 10px white;
+    filter: drop-shadow(2px 4px 10px black);
+    padding: 5px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.show-slider {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    box-shadow: 2px 2px 4px 4px white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    filter: drop-shadow(4px 4px 10px black);
+}
+
+.show-slider img {
+    width: 500px;
+    height: 500px;
+}
+
+.main-slider img {
+    width: 200px;
+    height: 200px;
+}
